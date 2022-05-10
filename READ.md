@@ -20,3 +20,18 @@ create README file
 touch README.md
 
 history (it will show all the command that you executed in the current shell)
+
+initialize the git
+git init
+
+initialize dvc
+dvc init
+
+add data to dvc
+dvc add data_given/wine_quality.csv
+
+put data in staging area
+git add .
+
+commit the whole project
+git commit -m "updating read file"
