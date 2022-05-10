@@ -35,3 +35,12 @@ git add .
 
 commit the whole project
 git commit -m "updating read file"
+
+pushing the code in git hub repository
+git remote add origin https://github.com/sadique1111/dvc_demo.git
+
+from master to main branch
+git branch -M main
+
+pushing all the code to repository
+git push -u origin main
